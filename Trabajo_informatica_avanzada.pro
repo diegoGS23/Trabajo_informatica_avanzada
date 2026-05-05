@@ -9,13 +9,36 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    administrador.cpp \
+    alimentacion.cpp \
+    alimentacioneswindow.cpp \
+    animal.cpp \
+    animaleswindow.cpp \
+    empleado.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainappwindow.cpp \
+    mainwindow.cpp \
+    recinto.cpp \
+    santuario.cpp \
+    usuario.cpp
 
 HEADERS += \
-    mainwindow.h
+    administrador.h \
+    alimentacion.h \
+    alimentacioneswindow.h \
+    animal.h \
+    animaleswindow.h \
+    empleado.h \
+    mainappwindow.h \
+    mainwindow.h \
+    recinto.h \
+    santuario.h \
+    usuario.h
 
 FORMS += \
+    alimentacioneswindow.ui \
+    animaleswindow.ui \
+    mainappwindow.ui \
     mainwindow.ui
 
 # Default rules for deployment.

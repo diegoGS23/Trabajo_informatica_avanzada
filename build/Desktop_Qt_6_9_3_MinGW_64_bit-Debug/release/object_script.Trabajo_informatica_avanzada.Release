@@ -1,0 +1,16 @@
+release/administrador.o
+release/alimentacion.o
+release/alimentacioneswindow.o
+release/animal.o
+release/animaleswindow.o
+release/empleado.o
+release/main.o
+release/mainappwindow.o
+release/mainwindow.o
+release/recinto.o
+release/santuario.o
+release/usuario.o
+release/moc_alimentacioneswindow.o
+release/moc_animaleswindow.o
+release/moc_mainappwindow.o
+release/moc_mainwindow.o

@@ -1,0 +1,16 @@
+debug/administrador.o
+debug/alimentacion.o
+debug/alimentacioneswindow.o
+debug/animal.o
+debug/animaleswindow.o
+debug/empleado.o
+debug/main.o
+debug/mainappwindow.o
+debug/mainwindow.o
+debug/recinto.o
+debug/santuario.o
+debug/usuario.o
+debug/moc_alimentacioneswindow.o
+debug/moc_animaleswindow.o
+debug/moc_mainappwindow.o
+debug/moc_mainwindow.o

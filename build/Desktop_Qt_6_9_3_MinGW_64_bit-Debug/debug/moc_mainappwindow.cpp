@@ -1,0 +1,148 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'mainappwindow.h'
+**
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.3)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../mainappwindow.h"
+#include <QtCore/qmetatype.h>
+
+#include <QtCore/qtmochelpers.h>
+
+#include <memory>
+
+
+#include <QtCore/qxptype_traits.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'mainappwindow.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.3. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+struct qt_meta_tag_ZN13MainAppWindowE_t {};
+} // unnamed namespace
+
+template <> constexpr inline auto MainAppWindow::qt_create_metaobjectdata<qt_meta_tag_ZN13MainAppWindowE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "MainAppWindow",
+        "getRecintos",
+        "QList<Recinto>",
+        "",
+        "mostrarRecintos",
+        "getEmpleados",
+        "QList<Empleado>",
+        "mostrarEmpleados",
+        "on_verAnimales_clicked",
+        "on_BtnAnadeRecinto_clicked",
+        "on_BtnEliminaRecinto_clicked",
+        "on_BtnModificaRecinto_clicked",
+        "on_BtnAnadeEmpleado_clicked",
+        "on_BtnEliminaEmpleado_clicked"
+    };
+
+    QtMocHelpers::UintData qt_methods {
+        // Slot 'getRecintos'
+        QtMocHelpers::SlotData<QVector<Recinto>()>(1, 3, QMC::AccessPrivate, 0x80000000 | 2),
+        // Slot 'mostrarRecintos'
+        QtMocHelpers::SlotData<void()>(4, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'getEmpleados'
+        QtMocHelpers::SlotData<QVector<Empleado>()>(5, 3, QMC::AccessPrivate, 0x80000000 | 6),
+        // Slot 'mostrarEmpleados'
+        QtMocHelpers::SlotData<void()>(7, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_verAnimales_clicked'
+        QtMocHelpers::SlotData<void()>(8, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_BtnAnadeRecinto_clicked'
+        QtMocHelpers::SlotData<void()>(9, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_BtnEliminaRecinto_clicked'
+        QtMocHelpers::SlotData<void()>(10, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_BtnModificaRecinto_clicked'
+        QtMocHelpers::SlotData<void()>(11, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_BtnAnadeEmpleado_clicked'
+        QtMocHelpers::SlotData<void()>(12, 3, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_BtnEliminaEmpleado_clicked'
+        QtMocHelpers::SlotData<void()>(13, 3, QMC::AccessPrivate, QMetaType::Void),
+    };
+    QtMocHelpers::UintData qt_properties {
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<MainAppWindow, qt_meta_tag_ZN13MainAppWindowE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
+Q_CONSTINIT const QMetaObject MainAppWindow::staticMetaObject = { {
+    QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13MainAppWindowE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13MainAppWindowE_t>.data,
+    qt_static_metacall,
+    nullptr,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN13MainAppWindowE_t>.metaTypes,
+    nullptr
+} };
+
+void MainAppWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<MainAppWindow *>(_o);
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: { QList<Recinto> _r = _t->getRecintos();
+            if (_a[0]) *reinterpret_cast< QList<Recinto>*>(_a[0]) = std::move(_r); }  break;
+        case 1: _t->mostrarRecintos(); break;
+        case 2: { QList<Empleado> _r = _t->getEmpleados();
+            if (_a[0]) *reinterpret_cast< QList<Empleado>*>(_a[0]) = std::move(_r); }  break;
+        case 3: _t->mostrarEmpleados(); break;
+        case 4: _t->on_verAnimales_clicked(); break;
+        case 5: _t->on_BtnAnadeRecinto_clicked(); break;
+        case 6: _t->on_BtnEliminaRecinto_clicked(); break;
+        case 7: _t->on_BtnModificaRecinto_clicked(); break;
+        case 8: _t->on_BtnAnadeEmpleado_clicked(); break;
+        case 9: _t->on_BtnEliminaEmpleado_clicked(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject *MainAppWindow::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MainAppWindow::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN13MainAppWindowE_t>.strings))
+        return static_cast<void*>(this);
+    return QMainWindow::qt_metacast(_clname);
+}
+
+int MainAppWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 10)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 10;
+    }
+    return _id;
+}
+QT_WARNING_POP
